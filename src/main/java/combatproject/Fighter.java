@@ -12,7 +12,8 @@ public class Fighter {
 
     public void show() {
         System.out.println("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
-        System.out.println("It's show time !!! The fighter is " + this.getName());
+        System.out.println("IT'S SHOW TIME !!! The fighter is " + this.getName());
+        System.out.println("");
         System.out.println("He is from " + this.getNationality());
         System.out.println("With " + this.getAge() + "years old " + getHeight());
         System.out.println("His weight is " + this.getWeight() + "Kg");
